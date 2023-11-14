@@ -565,7 +565,7 @@ input[type="search"]::-webkit-search-cancel-button{
 
 .contact{
     padding: 3rem 8rem;
-    background-color: var(--gray-light);
+    background-color: #f6f6f6;
 }
 
 .contact span{
@@ -579,6 +579,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .contact-item{
+    border-radius: 5px;
     background-color: var(--white);
     display: flex;
     justify-content: center;
@@ -662,7 +663,12 @@ input[type="search"]::-webkit-search-cancel-button{
 
 .footer-social a{
     color: var(--black);
-    padding-right: 50px;
+    padding-right: 24px;
+    transition: color 0.2s linear;
+}
+
+.footer-social a:hover{
+    color: var(--primary-color)
 }
 
 .footer-menu{
