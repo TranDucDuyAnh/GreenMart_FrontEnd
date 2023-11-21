@@ -382,6 +382,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .daily-list-type{
+    color: var(--black);
     font-size: 12px;
     width: fit-content;
     padding: 4px 10px;
@@ -391,13 +392,20 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .daily-list-name{
+    color: var(--black);
+    font-family: var(--primary-font);
     font-size: 14px;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.daily-list-name:hover{
+    color: var(--primary-color);
 }
 
 .daily-list-weight{
     font-size: 14px;
     color: var(--gray-dark);
-    margin-top: -10px;
 }
 
 .daily-list-star{
@@ -437,6 +445,7 @@ input[type="search"]::-webkit-search-cancel-button{
     font-family: var(--primary-font);
     padding-left: 7px;
     font-size: 14px;
+    z-index: 2;
 }
 
 .daily-about{
