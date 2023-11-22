@@ -114,7 +114,7 @@ input[type="search"]::-webkit-search-cancel-button{
     max-height: 4rem;
     max-width: 7rem;
     border-radius: 0.5rem;
-    margin-left: 2.5rem;
+    margin-left: 3.5rem;
     align-items: center;
     color: var(--white);
     background-color: var(--primary-color);
@@ -222,8 +222,8 @@ input[type="search"]::-webkit-search-cancel-button{
 .header-banner-text{
     position: absolute;
     right: 15%;
-    top: 7rem;
-    max-width: 40%;
+    top: 30%;
+    max-width: 50%;
     text-align: right;
 }
 
