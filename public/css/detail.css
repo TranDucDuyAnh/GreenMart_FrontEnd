@@ -557,7 +557,7 @@ input[type="search"]::-webkit-search-cancel-button{
 
 /** Tăng width để tránh sao bị xuống dòng **/
 .review-rate-star{
-    width: 150px;
+    min-width: 130px;
 }
 /** **/
 
@@ -624,6 +624,7 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .review-write-comment{
+    position: relative;
     background-color: #eee;
     border-radius: 10px;
     padding: 25px 20px;
@@ -635,6 +636,84 @@ input[type="search"]::-webkit-search-cancel-button{
 
 .review-write-comment p{
     font-size: 14px;
+}
+
+.review-select-rate{
+    padding-top: 20px;
+}
+
+.review-select-star span{
+    padding: 0px 10px;
+    color: var(--gray-dark)
+}
+
+.review-select-star-hover:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.review-title-task{
+    padding-top: 30px;
+}
+
+.review-input-comment{
+    width: 100%;
+    height: 155px;
+    border-radius: 0.5rem;
+    border: 2px solid #ddd;
+    outline:none;
+    font-family: var(--primary-font);
+    padding: 1.5rem 1rem;
+}
+
+.review-input-short{
+    width: 100%;
+    height: 35px;
+    border-radius: 0.5rem;
+    border: 2px solid #ddd;
+    outline:none;
+    font-family: var(--primary-font);
+    padding: 1.5rem 1rem;
+}
+
+.review-input-file{
+    font-family: var(--primary-font);
+    font-size: 14px;
+}
+
+.review-checkbox{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.review-checkbox input{
+    width: 12px;
+    height: 12px;
+}
+
+.review-checkbox label{
+    font-family: var(--primary-font);
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.review-submit{
+    position: absolute;
+    z-index: 2;
+    bottom: 5px;
+    right: 20px;
+    width: fit-content;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: bold;
+    padding: 7px 25px;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+}
+
+.review-submit:hover{
+    background-color: #0d9500;
 }
 
 .asterisk-required{
