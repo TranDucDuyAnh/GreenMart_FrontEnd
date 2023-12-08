@@ -400,7 +400,75 @@
                             <textarea class="checkout-note" cols="40" rows="4" placeholder="Notes about your order e.g. special notes for delivery."></textarea>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12"></div>
+                    <div class="col-lg-6 col-md-12">
+                        <h5 class="checkout-big">Your Order</h5>
+                        <div class="checkout-sheet">
+                            <div class="order-space">
+                                <h5 class="checkout-title">Product</h5>
+                                <h5 class="checkout-title">Subtotal</h5>
+                            </div>
+                            <div class="order-space od-i-list">
+                                <div class="order-item">
+                                    <img src="public/image/product-14.jpg" alt="">
+                                    <div class="order-item-text">
+                                        <p>Beef Potjiekos Per - 500g</p>
+                                        <div class="product-amount">
+                                            <i class="fa-solid fa-minus"></i>
+                                            <span>2</span>
+                                            <i class="fa-solid fa-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5 class="order-price">$198.00</h5>
+                            </div>
+                            <div class="order-space">
+                                <p>Subtotal</p>
+                                <h5 class="order-price">$198.00</h5>
+                            </div>
+                            <div class="order-space">
+                                <p>Shipping</p>
+                                <div>
+                                    <input type="checkbox" name="diff_address">
+                                    <label for="diff_address"> Flat rate</label>
+                                </div>
+                            </div>
+                            <div class="order-space od-i-list">
+                                <p></p>
+                                <div>
+                                    <input type="checkbox" name="diff_address">
+                                    <label for="diff_address"> Free shipping</label>
+                                </div>
+                            </div>
+                            <div class="order-space">
+                                <p>Total</p>
+                                <h5 class="order-price-big">$198.00</h5>
+                            </div>
+                        </div>
+                        <h5 class="checkout-big check-big-space">Payment Method</h5>
+                        <div class="checkout-method">
+                            <input type="radio" name="direct" value="HTML">
+                            <label for="direct">Direct Bank Transfer</label>
+                            <p>Make your payment directly into our bank account. Please use
+                                your Order ID as the payment reference. Your order will not
+                                be shipped until the funds have cleared in our account.</p>
+                        </div>
+                        <div class="checkout-method">
+                            <input type="radio" name="direct" value="HTML">
+                            <label for="direct">Check Payments</label>
+                            <p>Please send a check to Store Name, Store Street, Store Town,
+                                Store State / County, Store Postcode.</p>
+                        </div>
+                        <div class="checkout-method">
+                            <input type="radio" name="direct" value="HTML">
+                            <label for="direct">Cash On Delivery</label>
+                            <p>Pay with cash upon delivery.</p>
+                        </div>
+                        <div class="checkout-term">
+                            <input type="checkbox" name="term">
+                            <label for="term"> I have read and agree to the website <span>terms and conditions</span><span class="asterisk-required">*</span></label>
+                        </div>
+                        <p class="place-order">Place order</p>
+                    </div>
                 </div>
             </div>
         </div>
