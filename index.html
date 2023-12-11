@@ -85,12 +85,12 @@
                     </ul>
                 </div>
                 <div class="header-banner">
-                    <img src="./public/image/background-slider-01.jpg" alt="bg-header-banner">
-                    <i class="header-button-left fas fa-chevron-left fa-lg"> </i>
-                    <i class="header-button-right fas fa-chevron-right fa-lg"> </i>
+                    <img id="header-bn-image" src="./public/image/background-slider-01.jpg" alt="bg-header-banner">
+                    <i onclick="bannerImagePrev()" class="header-button-left fas fa-chevron-left fa-lg"> </i>
+                    <i onclick="bannerImageNext()" class="header-button-right fas fa-chevron-right fa-lg"> </i>
                     <div class="header-banner-text">
                         <div class="header-bn-text-big">
-                            <h1>Farm Fresh Vegetables & Foods 100% Organic.</h1>
+                            <h1 id="header-bn-emph">Farm Fresh Vegetables & Foods 100% Organic.</h1>
                         </div>
                         <p class="header-bn-text-small">Always fresh organic products for you.</p>
                         <p class="header-bn-button-shop">Shop now</p>
@@ -698,6 +698,7 @@
             </div>
         </div>
     </div>
+    <script src="./public/js/main.js"></script>
 </body>
 
 </html>
