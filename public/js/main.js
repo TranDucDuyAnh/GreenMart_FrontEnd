@@ -1,24 +1,3 @@
-window.onscroll = function () {keepHeader() };
-
-// Get the header
-var header_title = document.getElementsByClassName("header-title");
-var header_menu = document.getElementsByClassName("header-menu");
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function keepHeader() {
-    if (window.scrollY > 250) {
-        for (var i = 0, len = header_title.length; i < len; i++) {
-            header_title[i].classList.add("header-title-stick");
-            header_menu[i].classList.add("header-menu-stick");
-        }
-    } else {
-        for (var i = 0, len = header_title.length; i < len; i++) {
-            header_title[i].classList.remove("header-title-stick");
-            header_menu[i].classList.remove("header-menu-stick");
-        }
-    }
-}
-
 var image_index = 1
 
 function bannerImageNext() {

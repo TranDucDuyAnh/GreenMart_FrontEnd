@@ -33,61 +33,61 @@
                         <p class="header-top-hover">Recent Viewed Products</p>
                     </div>
                 </div>
-                <div class="header-title row">
-                    <a href="index.html" class="col-lg-2 col-md-4">
-                        <img src="./public/image/greenmart-logo.png" alt="gm-logo">
-                    </a>
-                    <div class="header-search col-lg-4 col-md-8">
-                        <input type="search" placeholder="Search for..." class="header-search-text">
-                        <button type="submit" class="header-search-button">
-                            <i class="fas fa-search fa-lg"></i>
-                        </button>
-                    </div>
-                    <div class="header-call col-lg-2 col-md-4">
-                        <i class="fas fa-phone-alt fa-lg"></i>
-                        <div class="header-call-info">
-                            <h5>Online Shopping</h5>
-                            <p>+ 78 925-942-2900</p>
+                <div id="header-big">
+                    <div class="header-title row">
+                        <a href="index.html" class="col-lg-2 col-md-4">
+                            <img src="./public/image/greenmart-logo.png" alt="gm-logo">
+                        </a>
+                        <div class="header-search col-lg-4 col-md-8">
+                            <input type="search" placeholder="Search for..." class="header-search-text">
+                            <button type="submit" class="header-search-button">
+                                <i class="fas fa-search fa-lg"></i>
+                            </button>
                         </div>
-                    </div>
-                    <div class="header-account col-lg-2 col-md-4">
-                        <i class="fas fa-user fa-lg"></i>
-                        <div class="header-account-text">
-                            <h5>Account</h5>
-                            <p>Login/Register</p>
+                        <div class="header-call col-lg-2 col-md-4">
+                            <i class="fas fa-phone-alt fa-lg"></i>
+                            <div class="header-call-info">
+                                <h5>Online Shopping</h5>
+                                <p>+ 78 925-942-2900</p>
+                            </div>
                         </div>
-                    </div>
-                    <a href="cart.html" class="header-cart col-lg-2 col-md-4">
-                        <i class="fas fa-shopping-cart fa-lg"></i>
-                        <div class="header-cart-text">
-                            <h5>Cart</h5>
-                            <p>$0.00</p>
+                        <div class="header-account col-lg-2 col-md-4">
+                            <i class="fas fa-user fa-lg"></i>
+                            <div class="header-account-text">
+                                <h5>Account</h5>
+                                <p>Login/Register</p>
+                            </div>
                         </div>
-                    </a>
-                </div>
-                <div class="header-menu">
-                    <ul class="header-menu-list row">
-                        <li class="header-menu-items col">
-                            Home
-                        </li>
-                        <li class="header-menu-items col">
-                            Shop<i class="fas fa-chevron-down fa-xs"></i>
-                        </li>
-                        <li class="header-menu-items col">
-                            Pages<i class="fas fa-chevron-down fa-xs"></i>
-                        </li>
-                        <li class="header-menu-items col">
-                            Vegetables<i class="fas fa-chevron-down fa-xs"></i>
-                        </li>
-                        <li class="header-menu-items col">
-                            Flash Sale
-                        </li>
-                    </ul>
+                        <a href="cart.html" class="header-cart col-lg-2 col-md-4">
+                            <i class="fas fa-shopping-cart fa-lg"></i>
+                            <div class="header-cart-text">
+                                <h5>Cart</h5>
+                                <p>$0.00</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="header-menu">
+                        <ul class="header-menu-list row">
+                            <li class="header-menu-items col">
+                                Home
+                            </li>
+                            <li class="header-menu-items col">
+                                Shop<i class="fas fa-chevron-down fa-xs"></i>
+                            </li>
+                            <li class="header-menu-items col">
+                                Pages<i class="fas fa-chevron-down fa-xs"></i>
+                            </li>
+                            <li class="header-menu-items col">
+                                Vegetables<i class="fas fa-chevron-down fa-xs"></i>
+                            </li>
+                            <li class="header-menu-items col">
+                                Flash Sale
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="header-banner">
                     <img id="header-bn-image" src="./public/image/background-slider-01.jpg" alt="bg-header-banner">
-                    <i onclick="bannerImagePrev()" class="header-button-left fas fa-chevron-left fa-lg"> </i>
-                    <i onclick="bannerImageNext()" class="header-button-right fas fa-chevron-right fa-lg"> </i>
                     <div class="header-banner-text">
                         <div class="header-bn-text-big">
                             <h1 id="header-bn-emph">Farm Fresh Vegetables & Foods 100% Organic.</h1>
@@ -95,6 +95,8 @@
                         <p class="header-bn-text-small">Always fresh organic products for you.</p>
                         <p class="header-bn-button-shop">Shop now</p>
                     </div>
+                    <i onclick="bannerImagePrev()" class="header-button-left fas fa-chevron-left fa-lg"> </i>
+                    <i onclick="bannerImageNext()" class="header-button-right fas fa-chevron-right fa-lg"> </i>
                 </div>
                 <div class="header-free-ship">
                     <p>Free Shipping On All Orders Over $99.</p>
@@ -699,6 +701,7 @@
         </div>
     </div>
     <script src="./public/js/main.js"></script>
+    <script src="./public/js/header.js"></script>
 </body>
 
 </html>
