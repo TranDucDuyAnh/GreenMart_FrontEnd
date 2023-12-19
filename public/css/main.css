@@ -182,6 +182,14 @@ input[type="search"]::-webkit-search-cancel-button{
     margin-left: -12px;
 }
 
+.header-hierarchy{
+    padding: 0rem 8rem;
+}
+
+.header-big-stick + .header-hierarchy{
+    padding-top: 200px
+}
+
 .header-banner{
     position: relative;
     min-height: 25rem;
