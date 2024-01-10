@@ -1,0 +1,138 @@
+/* Header */
+
+.header-hierarchy{
+    padding: 2rem 8rem;
+}
+
+.header-hierarchy a{
+    color:var(--gray-dark);
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-size: 15px;
+    padding: 0 10px;
+    font-weight: bold;
+    transition: color 0.2s linear
+}
+
+.header-hierarchy a:hover{
+    color: var(--primary-color)
+}
+
+.header-hierarchy span{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+    color: #aaa;
+}
+
+.header-menu{
+    min-height: 2rem;
+    padding: 0 8rem;
+    border-bottom: 2px solid var(--gray-light);
+}
+
+.header-menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    margin-left: -2px;
+    font-weight: bold;
+    font-family: var(--primary-font);
+    transition: color 0.2s linear;
+    cursor: pointer;
+}
+
+.header-menu-items i{
+    margin-left: 0.5rem;
+}
+
+.header-menu-items a{
+    text-decoration: none;
+    color: var(--black);
+    transition: color 0.2s linear;
+}
+
+.header-menu-items:first-child{
+    color: var(--black);
+}
+
+.header-menu-items:hover{
+    color: var(--primary-color);
+}
+
+.header-menu-items a:hover{
+    color: var(--primary-color);
+}
+
+/* Account */
+
+.account-main{
+    padding: 1rem 28rem;
+}
+
+.account-main h1{
+    font-size: 28px;
+}
+
+.account-main h5{
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+.account-main input{
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--gray-light);
+    outline:none;
+    font-family: var(--primary-font);
+    padding-left: 1rem;
+    margin-bottom: 12px;
+}
+
+.input-different input{
+    width: 16px;
+    height: 16px;
+    border-radius: 0.5rem;
+    border: 2px solid var(--gray-light);
+    outline:none;
+    font-family: var(--primary-font);
+}
+
+.input-different label{
+    padding-left: 12px;
+    font-family: var(--primary-font);
+}
+
+.account-seperate{
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-seperate p{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.account-main a{
+    color:var(--primary-color);
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-size: 16px;
+}
+
+.account-button{
+    width: fit-content;
+    font-weight: bold;
+    color: var(--white);
+    background-color: var(--primary-color);
+    padding: 12px 36px;
+    margin-top: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: var(--primary-font);
+    cursor: pointer;
+}

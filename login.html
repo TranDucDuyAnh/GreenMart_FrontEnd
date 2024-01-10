@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart - Greenmart - Fresh Food & Grocery</title>
+    <title>Login - Greenmart - Fresh Food & Grocery</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="./public/css/main.css">
-    <link rel="stylesheet" href="./public/css/cart.css">
+    <link rel="stylesheet" href="./public/css/login.css">
     <link rel="stylesheet" href="./public/css/setting.css">
 </head>
 <body>
@@ -52,20 +52,18 @@
                         </div>
                         <div class="header-account col-lg-2 col-md-4">
                             <i class="fas fa-user fa-lg"></i>
-                            <a href="login.html">
-                                <div class="header-account-text">
-                                    <h5>Account</h5>
-                                    <p>Login/Register</p>
-                                </div>
-                            </a>
+                            <div class="header-account-text">
+                                <h5>Account</h5>
+                                <p>Login/Register</p>
+                            </div>
                         </div>
-                        <div class="header-cart col-lg-2 col-md-4">
+                        <a href="cart.html" class="header-cart col-lg-2 col-md-4">
                             <i class="fas fa-shopping-cart fa-lg"></i>
                             <div class="header-cart-text">
                                 <h5>Cart</h5>
                                 <p>$0.00</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="header-menu">
                         <ul class="header-menu-list row">              
@@ -98,50 +96,25 @@
             </div>
         </div>
         <!-- Main -->
-        <div class="cart-main">
-            <div class="container-xl row">
-                <div class="col-lg-8 col-md-12">
-                    <h1>Cart</h1>
-                    <ul class="cart-list">
-                        <li class="cart-item">
-                            <img src="public/image/product-14.jpg" alt="beef">
-                            <a href="detail.html">Beef Potjiekos Per - 500g</a>
-                            <h5>$99.00</h5>
-                            <div class="product-amount">
-                                <i class="fa-solid fa-minus" onclick="countDecrease()"></i>
-                                <span id="product-amount-number">2</span>
-                                <i class="fa-solid fa-plus" onclick="countIncrease()"></i>
-                            </div>
-                            <h5 id="product-js-price">$198.00</h5>
-                            <i class="fa-solid fa-trash fa-lg"></i>
-                        </li>
-                    </ul>
-                    <p class="cart-cont">Continue Shopping</p>
-                    <div class="cart-coupon">
-                        <h5 class="cart-title">Coupon Apply</h5>
-                        <input type="text" placeholder="Enter coupon code here...">
-                        <p>Apply</p>
+        <div class="account-main">
+            <div class="container-xl">
+                <h1>Login</h1>
+                <p>Enter your username and password to login.</p>
+                <h5>Username or Email</h5>
+                <input type="text">
+                <h5>Password</h5>
+                <input type="password">
+                <div class="account-seperate">
+                    <div class="input-different">
+                        <input type="checkbox" name="remember">
+                        <label for="remember"> Remember me</label>
                     </div>
+                    <p>Forgot password?</p>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="cart-total">
-                        <h5 class="cart-title">Cart Totals</h5>
-                        <div class="cart-total-sect">
-                            <p>Subtotal</p>
-                            <h5>$198.00</h5>
-                        </div>
-                        <div class="cart-total-sect">
-                            <p>Shipping</p>
-                            <p class="cart-total-right">Enter your address to view shipping options.</p>
-                        </div>
-                        <p class="cart-total-right cart-total-green">Calculate shipping</p>
-                        <div class="cart-total-sect cart-price">
-                            <p>Total</p>
-                            <h5 class="cart-total-big">$198.00</h5>
-                        </div>
-                    </div>
-                    <a href="checkout.html" class="cart-checkout">Proceed To Checkout</a>
-                </div>
+                <a href="register.html">Not having an account yet? Click here to register</a>
+                <p class="account-button">
+                    Login
+                </p>
             </div>
         </div>
         <!-- Footer -->
@@ -201,6 +174,5 @@
         </div>
     </div>
     <script src="./public/js/header.js"></script>
-    <script src="./public/js/detail.js"></script>
 </body>
 </html>
